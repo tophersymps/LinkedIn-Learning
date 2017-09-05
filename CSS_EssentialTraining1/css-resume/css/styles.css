@@ -1,0 +1,51 @@
+/* Color Palette
+#142148 - nyNavy
+#4B77AD - citySky
+#5E6686 - nyPidgeonGrey
+#EAEAEA - cityWhite
+#EA5115 - dutchOrange
+
+/* Global styles
+---------------------------------------------------*/
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
+}
+h1, h2{
+font-family: 'Contrail One', cursive;
+}
+h1{
+  font-size: 60px;
+}
+h2{
+  font-size: 30px;
+}
+a{
+  color: #EA5115;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* Header and Footer
+---------------------------------------------------*/
+header, footer{
+  background: #142148;
+  color: #4B77AD;
+}
+
+header h1, header h2{
+  color: #EAEAEA;
+}
+
+/* Work Experience
+---------------------------------------------------*/
+.work{
+  background: #5E6686;
+}
+
+/* Education
+---------------------------------------------------*/
+.education{
+  background: #5E6686;
+}
