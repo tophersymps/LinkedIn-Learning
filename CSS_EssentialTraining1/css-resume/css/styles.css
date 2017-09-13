@@ -10,6 +10,7 @@
 body {
   font-family: 'Source Code Pro', monospace;
   font-weight: 300;
+  margin: 0;
 }
 h1, h2, h3, h4{
 font-family: 'Contrail One', cursive;
@@ -20,12 +21,18 @@ h1{
 }
 h2{
   font-size: 30px;
+  margin-top: 0;
 }
 a{
   color: #EA5115;
 }
 a:hover{
   text-decoration: none;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
 }
 
 /* Header and Footer
@@ -34,9 +41,18 @@ header, footer{
   background: #142148;
   color: #4B77AD;
 }
-
+/* header */
 header h1, header h2{
   color: #EAEAEA;
+}
+/* footer */
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
 }
 
 /* Work Experience
