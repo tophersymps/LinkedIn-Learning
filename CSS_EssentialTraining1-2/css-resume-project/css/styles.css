@@ -22,17 +22,20 @@ h1, h2, h3, h4{
 font-family: 'Contrail One', cursive;
 font-weight: 400;
 }
-h1{
+h1 {
   font-size: 60px;
 }
-h2{
+h2 {
   font-size: 30px;
   margin-top: 0;
 }
-a{
+h3 {
+  margin: 0;
+}
+a {
   color: #EA5115;
 }
-a:hover{
+a:hover {
   text-decoration: none;
 }
 .content-wrap {
@@ -44,17 +47,18 @@ a:hover{
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 175px;
 }
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
-  min-height: 175px;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 /* Header and Footer
 ---------------------------------------------------*/
-header, footer{
+header, footer {
   background: #142148;
   color: #4B77AD;
 }
@@ -65,7 +69,7 @@ header, footer{
 header {
   /* text-align: center; */
 }
-header h1, header h2{
+header h1, header h2 {
   color: #EAEAEA;
   margin: 0;
 }
@@ -81,12 +85,25 @@ footer {
 
 /* Work Experience
 ---------------------------------------------------*/
-.work{
-  background: #5E6686;
+.work {
+  background: #EAEAEA;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
 }
 
 /* Education
 ---------------------------------------------------*/
-.education{
+.education {
   background: #5E6686;
+}
+p + h3 {
+  /*apply this style to any p that follows an h3*/
+  margin-top: 30px;
 }
